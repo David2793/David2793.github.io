@@ -1,0 +1,98 @@
+/* color de fondo de la página */
+body {
+  background-image: url(imagenes/fondo.jpg);
+  background-size: 100%;
+  background-position:left top;
+}
+
+/* Estilo del logo */
+.logo {
+  position: relative;
+  top: -120px;
+  height: 120px;
+}
+
+/* Estilo caja */
+.caja {
+position: static;
+color: #ffffff;
+background: #889ccf;
+margin: 0px 0px 0px 0px;
+overflow: hidden;
+padding: 60px;
+}
+
+
+/* Estilos en la fuente de letra de <nav> */
+nav {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  text-shadow: 5px 2px 4px orange;
+  letter-spacing: 1.5px;
+}
+
+/* Estilo menú */
+
+.menu li {
+  display: inline;
+}
+
+/* Estilo menú lista */
+.menu li a {
+  float: left;
+  padding: 36px;
+  width: 212px;
+  background-color: yellow;
+  text-decoration: none;
+  border: 5px solid rgb(1, 2, 64);
+}
+
+/*Posicionamiento */
+.menu li a {
+  position: relative;
+  top: -272px;
+  left: 115px;
+}
+
+/* Efecto al pasar el mouse sobre el menú */
+.menu li a:hover {
+background-color: #2586d7;
+margin-top: ;
+padding-bottom: 30px;]
+}
+
+/* Estilo sobre h2 */
+h2 {
+  position: absolute;
+  display: inline;
+  left: 280px;
+  top: 150px;
+  color: #0066FF;
+  font-size: 40px;
+}
+
+/* Estilo sobre video portada */
+#video {
+  position: relative;
+  left: 350px;
+  top: -150px;
+}
+
+#ofertas {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  margin: 0px;
+  color: blue;
+  background-image: linear-gradient(to right, red , yellow);
+  overflow: hidden;
+  padding: 20px;
+  top: -570px;
+  text-align: center;
+  text-shadow: 5px 2px 4px #00008B;
+  opacity: 0.8;
+  letter-spacing: 10px;
+}
