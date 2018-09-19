@@ -1,9 +1,8 @@
+
 /* color de fondo de la página */
 body {
-  background-image: url(imagenes/fondo);
   background-size: 100%;
   background-color: #0f1b3a;
-
   background-position:left top;
 }
 
@@ -16,30 +15,30 @@ body {
 
 /* Estilo caja detras del menú */
 .caja {
-width: 100%
+width: 100%;
 position: static;
 color: #ffffff;
 background: #020c28;
 overflow: hidden;
 padding: 80px;
 margin: 0px;
-
 }
 
 
 /* Estilos en la fuente de letra de <nav> */
 nav {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  src: url(fuentes/IndieFlower.ttf);
+  font-size: 25px;
   font-weight: bold;
   text-align:center;
   text-shadow: 5px 2px 4px #081128;
   letter-spacing: 1.5px;
-
 }
 
-/* Estilo menú */
 
+
+/* Estilo menú */
 .menu li {
   display: inline;
 }
@@ -51,7 +50,6 @@ nav {
   width: 220px;
   background-color: ;
   text-decoration: none;
-
 }
 
 /*Posicionamiento menú */
@@ -65,20 +63,40 @@ nav {
 /* Efecto al pasar el mouse sobre el menú */
 .menu li a:hover {
 background-color: #192442;
-margin-top: ;
-padding-bottom: 30px;]
+padding-bottom: 30px;
 }
 
 /* Estilo sobre Bienvenido*/
 h2 {
-  position: absolute;
+  font-family: 'Indie Flower', cursive;
+  src: url(fuentes/IndieFlower.ttf);
+  position: relative;
   display: inline;
-  left: 280px;
-  top: 150px;
+  left: 200px;
+  bottom: 200px;
   color: #0066FF;
   font-size: 40px;
 }
 
+/* posicionamiento imagen de Mario */
+.mario {
+  position: relative;
+  bottom: 150px;
+}
+
+/* posicionamiento imagen de Luigi */
+.luigi {
+  position: relative;
+  bottom: 150px;
+  left: 920px;
+}
+
+/* posicionamiento imagen de Hongo */
+.hongo {
+  position: relative;
+  bottom: 150px;
+  left: 200px;
+}
 
 /* Estilo h3 ofertas */
 #ofertas {
@@ -87,15 +105,15 @@ h2 {
   font-weight: bold;
   position: relative;
   margin: 0px;
-  color: blue;
+  color: #2a75ed;
   background-image: linear-gradient(to right, #020c28 , blue);
   overflow: hidden;
   padding: 20px;
-  top: -570px;
+  top: -150px;
   text-align: center;
-  text-shadow: 5px 2px 4px #00008B;
+  text-shadow: 5px 2px 4px black;
   opacity: 0.8;
-  letter-spacing: 10px;
+  letter-spacing: 50px;
   width: 100%;
 }
 
@@ -110,13 +128,19 @@ h2 {
   margin: 35px;
 }
 
+/* estilo y posicionamiento de estos 4 juegos */
 .counter, .pacman, .age, .fifa {
   position: relative;
-  top: -550px;
+  top: -100px;
+  color: white;
+  text-align: center;
 }
+/* estilo y posicionamiento de estos 4 juegos */
 .sims, .gta, .f1, .need {
   position: relative;
-  top: -550px;
+  top: -100px;
+  color: white;
+  text-align: center;
 }
 
 /* Estilos h3 novedades */
@@ -125,17 +149,18 @@ h2 {
   font-size: 30px;
   font-weight: bold;
   position: relative;
-  color: blue;
+  color: #2a75ed;
   background-image: linear-gradient(to right, #020c28 , blue);
   overflow: hidden;
   padding: 20px;
   text-align: center;
-  text-shadow: 5px 2px 4px #00008B;
+  text-shadow: 5px 2px 4px black;
   opacity: 0.8;
-  letter-spacing: 10px;
+  letter-spacing: 50px;
   width: 100%;
   display: inline-block;
-  top: -550px;
+  top: -100px;
+  text-align: center;
 }
 
 /* Estilo a la lista de juegos de novedades*/
@@ -154,16 +179,47 @@ h2 {
   position: relative;
   top: 300px;
   margin: 180px 35px;
-  top: -720px;
+  top: -200px;
+  color: white;
+  text-align: center;
 }
 
 /* Estilos newlester */
 .new {
-  width: 30%;
-  background:;
+  width: 100%;
+  background:#020c28;
   position: relative;
-  bottom: 900px;
+  bottom: 400px;
   margin:180px 0px;
   border: solid blue;
+  padding: 20px;
+  color: blue;
+}
 
+/*Estilo pie de página */
+.footer {
+  width: 100%;
+  position: relative;
+  height: 150px;
+  color: white;
+  padding: 50px;
+  background-color: #020c28;
+  bottom:550px;
+
+}
+
+.pc {
+  top: 120px;
+  position: relative;
+  right: 70px;
+}
+.copy {
+  top: 120px;
+  position: relative;
+  right: 70px;
+}
+.icono {
+  top: 120px;
+  position: relative;
+  right: 60px;
 }
