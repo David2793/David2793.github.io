@@ -124,6 +124,9 @@ h2 {
 }
 
 /* Estilo a la lista de juegos de oferta */
+.counter, .pacman, .age, .fifa, .sims, .gta, .f1, .need, .nba, .busca, .worms, .pou {
+  color: white; 
+}
 .counter {
   list-style: none;
   position: relative;
