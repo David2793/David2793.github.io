@@ -1,13 +1,11 @@
+/*Toda la página*/
 * {
-  max-width: 1024px;
-  max-height: 600px;
-  margin: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+
 }
+
 /* color de fondo de la página */
 body {
-  width: 100%;
+  margin:0
   background-size: 100%;
   background-color: #0f1b3a;
 }
@@ -17,7 +15,7 @@ body {
   position: relative;
   top: -159px;
   height: 168px;
-  right: 80px;
+  right: 5px;
 }
 
 /* Estilo caja detras del menú */
@@ -39,38 +37,37 @@ nav {
   font-size: 0px;
   font-weight: bold;
   letter-spacing: 2px;
-}
-
-/* Estilo menú */
-.menu li {
-  display: inline;
-}
-
-/* Estilo menú lista */
-.menu li a {
-  position: relative;
-  background-color: ;
-  text-decoration: none;
   text-shadow: 4px 2px blue;
-  font-size: 20px;
-  margin: 16px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
 }
 
-/*Posicionamiento menú */
-.menu li a {
+nav ul li {
+  display: inline-block;
+  width: 20%;
   position: relative;
-  top: -272px;
-  left: 30px;
+  left: 280px;
+  bottom: 260px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
   color: white;
 }
+
+
 
 /* Efecto al pasar el mouse sobre el menú */
 .menu li a:hover {
 background-color: #134ead;
 transition-property: background-color;
-transition-duration: 1s;
-transition-timing-function: linear;
-transition-delay: 0.3s;
+padding: 70px;
 }
 
 /* Estilo sobre Bienvenido*/
@@ -78,9 +75,8 @@ h2 {
   font-family: 'Indie Flower', cursive;
   src: url(fuentes/IndieFlower.ttf);
   position: relative;
-  display: inline;
-  margin: 40px;
-  bottom: 150px;
+  margin: 15%;
+  bottom: 330px;
   color: #0066FF;
   font-size: 38px;
   left: 20px;
@@ -89,186 +85,66 @@ h2 {
 /* posicionamiento imagen de Mario */
 .mario {
   position: relative;
-  bottom: 105px;
+  bottom: 555px;
+
 }
 
 /* posicionamiento imagen de Luigi */
 .luigi {
   position: relative;
-  bottom: 105px;
-  left: 420px;
+  bottom: 555px;
+  left: 930px;
 }
 
 /* posicionamiento imagen de Hongo */
 .hongo {
   position: relative;
-  bottom: 105px;
-  right: 200px;
+  bottom: 565px;
+  left: 10%;
 }
 
 /* Estilo h3 ofertas */
 #ofertas {
-  width: 900px;
-  margin: 40px;
+  width: 100%;
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
   font-weight: bold;
-  position: relative;
   color: #2a75ed;
   background-image: linear-gradient(to right, #020c28 , blue);
   padding: 20px;
-  top: -150px;
   text-align: center;
   text-shadow: 5px 2px 4px black;
   letter-spacing: 50px;
+  position: relative;
+  bottom: 600px;
 }
 
 /* Estilo a la lista de juegos de oferta */
 .counter, .pacman, .age, .fifa, .sims, .gta, .f1, .need, .nba, .busca, .worms, .pou {
   color: white;
 }
-.counter {
+
+#listado {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+#listado img {
+
+}
+
+#listado li {
+  width: 15.15%;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 15%;
+  margin-top: 5%;
   position: relative;
+  bottom: 600px;
   background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -30px;
-  margin-top: -150px;
   text-align: center;
-}
-
-#counter {
-  margin-left: 5px;
-}
-
-.pacman  {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -5px;
-  margin-top: -150px;
-  text-align: center;
-}
-
-#pacman {
-  margin-left: 5px;
-}
-
-.age {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: 600px;
-  top: -400px;
-  text-align: center;
-}
-
-#age {
-  margin-left: 5px;
-}
-
-.fifa {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -30px;
-  top: -350px;
-  text-align: center;
-}
-
-#fifa {
-  margin-left: 5px;
-}
-
-.sims {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -5px;
-  top: -350px;
-  text-align: center;
-}
-
-#sims {
-  margin-left: 5px;
-}
-
-.gta {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: 600px;
-  top: -750px;
-  text-align: center;
-}
-
-#vice {
-  margin-left: 5px;
-}
-
-.f1 {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -30px;
-  top: -700px;
-  text-align: center;
-}
-
-#f1 {
-  margin-left: 5px;
-}
-
-.need {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -5px;
-  top: -700px;
-  text-align: center;
-}
-
-#need {
-  margin-left: 5px;
-}
-
-.nba {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: 600px;
-  top: -1100px;
-  text-align: center;
-}
-
-#nba {
-  margin-left: 5px;
 }
 
 .counter:hover {
@@ -440,4 +316,14 @@ box-shadow: 0px 0px 15px 15px #ec731e;
   position: relative;
   right: 25px;
   top: 160px;
+}
+
+@media screen and (max-width: 499px) {
+.menu li a {
+  display: inline;
+}
+
+@media screen and (max-width: 600px) {
+.menu li a {
+  display: inline;
 }
