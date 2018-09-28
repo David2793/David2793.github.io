@@ -1,34 +1,37 @@
 /*Toda la página*/
 * {
 
+
 }
 
 /* color de fondo de la página */
 body {
-  margin:0
+  margin:0;
   background-size: 100%;
   background-color: #0f1b3a;
 }
 
 /* Estilo del logo */
-.logo {
-  position: relative;
-  top: -159px;
-  height: 168px;
-  right: 5px;
+
+
+header{
+  font-size: 0;
 }
 
 /* Estilo caja detras del menú */
-.caja {
-width: 100%;
+nav {
+width: 80%;
 height: 170px;
-position: relative;
 color: #ffffff;
 background: #020c28;
 overflow: hidden;
-top:10px;
+text-align: center;
 }
 
+#logo-container{
+  display: inline-block;
+  width:11.5%;
+}
 
 /* Estilos en la fuente de letra de <nav> */
 nav {
@@ -38,7 +41,10 @@ nav {
   font-weight: bold;
   letter-spacing: 2px;
   text-shadow: 4px 2px blue;
+  display: inline-block;
+  width: 88.5%;
 }
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -49,58 +55,37 @@ nav ul {
 nav ul li {
   display: inline-block;
   width: 20%;
-  position: relative;
-  left: 280px;
-  bottom: 260px;
-
 }
 
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
   color: white;
+  line-height: 170px;
 }
 
 
-
-/* Efecto al pasar el mouse sobre el menú */
-.menu li a:hover {
-background-color: #134ead;
-transition-property: background-color;
-padding: 70px;
-}
 
 /* Estilo sobre Bienvenido*/
 h2 {
   font-family: 'Indie Flower', cursive;
   src: url(fuentes/IndieFlower.ttf);
-  position: relative;
-  margin: 15%;
-  bottom: 330px;
   color: #0066FF;
   font-size: 38px;
-  left: 20px;
+  text-align: center;
 }
 
 /* posicionamiento imagen de Mario */
 .mario {
-  position: relative;
-  bottom: 555px;
-
+position: absolute;
+bottom: 25%;
 }
 
 /* posicionamiento imagen de Luigi */
 .luigi {
-  position: relative;
-  bottom: 555px;
-  left: 930px;
-}
-
-/* posicionamiento imagen de Hongo */
-.hongo {
-  position: relative;
-  bottom: 565px;
-  left: 10%;
+position: absolute;
+left: 85%;
+bottom: 27%;
 }
 
 /* Estilo h3 ofertas */
@@ -115,8 +100,6 @@ h2 {
   text-align: center;
   text-shadow: 5px 2px 4px black;
   letter-spacing: 50px;
-  position: relative;
-  bottom: 600px;
 }
 
 /* Estilo a la lista de juegos de oferta */
@@ -131,199 +114,114 @@ h2 {
   font-size: 0;
 }
 
-#listado img {
-
-}
 
 #listado li {
-  width: 15.15%;
+  width: 20%;
   display: inline-block;
   font-size: 16px;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 5%;
-  position: relative;
-  bottom: 600px;
+  padding:2px;
   background-color: #020c28;
   text-align: center;
 }
 
-.counter:hover {
+.counter:hover, .pacman:hover, .age:hover, .fifa:hover, .sims:hover, .gta:hover, .f1:hover, .need:hover,.nba:hover {
   box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #4286f4;
+  -webkit-box-shadow: 0px 0px 15px 15px blue;
 }
-
-.pacman:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #f4a142;
-}
-
-.age:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #48f442;
-}
-
-.fifa:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #f46542;
-}
-
-.sims:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #f442c8;
-}
-
-.gta:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #42f4ee;
-}
-
-.f1:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #3f754d;
-}
-
-.need:hover {
-box-shadow: 0px 0px 15px 15px #ec731e;
--webkit-box-shadow: 0px 0px 15px 15px #cecb33;
-}
-
-.nba:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #7885bc;
-}
-
 
 /* Estilos h3 novedades */
 #novedades {
+  width: 100%;
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
   font-weight: bold;
-  position: relative;
   color: #2a75ed;
   background-image: linear-gradient(to right, #020c28 , blue);
-  overflow: hidden;
   padding: 20px;
   text-align: center;
   text-shadow: 5px 2px 4px black;
-  opacity: 0.8;
   letter-spacing: 50px;
-  width: 900px;
-  margin: 40px;
-  display: inline-block;
-  top: 700px;
-  text-align: center;
 }
 
 /* Estilo a la lista de juegos de novedades*/
-.busca {
+#listadouno {
   list-style: none;
-  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+#listadouno li {
+  width: 20%;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding:2px;
   background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -30px;
-  top: 700px;
   text-align: center;
 }
 
-#busca {
-  margin-left: 5px;
-}
-
-.worms {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: -5px;
-  top: 700px;
-  text-align: center;
-}
-
-#worms {
-  margin-left: 5px;
-}
-
-.pou {
-  list-style: none;
-  position: relative;
-  background-color: #020c28;
-  display: inline-grid;
-  width: 280px;
-  height: 400px;
-  margin-left: 600px;
-  top: 300px;
-  text-align: center;
-}
-
-#pou {
-  margin-left: 5px;
-}
-.busca:hover {
+.busca:hover, .worms:hover, .pou:hover {
   box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #ba8c51;
+  -webkit-box-shadow: 0px 0px 15px 15px blue;
 }
 
-.worms:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #ba7451;
-}
 
-.pou:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #cecb33;
-}
 
 /* Estilos newlester */
 .new {
-  width: 912px;
+  width: 100%;
   background: #113c4c;
-  position: relative;
-  top: 710px;
-  margin-left: 80px;
   border: solid blue;
-  padding: 10px;
   color: blue;
-  text-align: left;
-
+  height: 350px;
+  top: 50px;
+  position: relative;
 }
 
 /*Estilo pie de página */
 .footer {
-  width: 940px;
+  width: 100%;
   height: 250px;
-  margin-left: 80px;
-  position: relative;
   color: white;
   background-color: #020c28;
-  top: 720px;
 }
 
 .pc {
   top: 180px;
   position: relative;
-  right: 120px;
+  left: 10px;
 }
 .copy {
-  top: 170px;
+  top: 190px;
   position: relative;
-  right: 70px;
+  left: 10px;
 }
 .icono {
   position: relative;
-  right: 25px;
-  top: 160px;
+  top: 168px;
+  left: 1px;
 }
 
-@media screen and (max-width: 499px) {
-.menu li a {
+@media screen and (max-width: 800px) {
+  nav {
   display: inline;
+  }
+
+  nav ul li a {
 }
 
-@media screen and (max-width: 600px) {
-.menu li a {
+}
+
+@media screen and (min-width: 200px) {
+  nav {
   display: inline;
+  }
+
+  nav ul li a {
+}
+
 }
