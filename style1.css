@@ -75,18 +75,7 @@ h2 {
   text-align: center;
 }
 
-/* posicionamiento imagen de Mario */
-.mario {
-position: absolute;
-bottom: 25%;
-}
 
-/* posicionamiento imagen de Luigi */
-.luigi {
-position: absolute;
-left: 85%;
-bottom: 27%;
-}
 
 /* Estilo h3 ofertas */
 #ofertas {
@@ -113,7 +102,6 @@ bottom: 27%;
   margin: 0;
   font-size: 0;
 }
-
 
 #listado li {
   width: 20%;
@@ -175,8 +163,7 @@ bottom: 27%;
 .new {
   width: 100%;
   background: #113c4c;
-  border: solid blue;
-  color: blue;
+  color: white;
   height: 350px;
   top: 50px;
   position: relative;
@@ -204,24 +191,4 @@ bottom: 27%;
   position: relative;
   top: 168px;
   left: 1px;
-}
-
-@media screen and (max-width: 800px) {
-  nav {
-  display: inline;
-  }
-
-  nav ul li a {
-}
-
-}
-
-@media screen and (min-width: 200px) {
-  nav {
-  display: inline;
-  }
-
-  nav ul li a {
-}
-
 }
