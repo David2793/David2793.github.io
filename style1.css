@@ -15,6 +15,7 @@ header{
 
 /* Estilo caja detras del menú */
 nav {
+font-family: 'Bai Jamjuree', sans-serif;
 width: 80%;
 height: 170px;
 color: #ffffff;
@@ -30,8 +31,6 @@ text-align: center;
 
 /* Estilos en la fuente de letra de <nav> */
 nav {
-  font-family: 'Indie Flower', cursive;
-  src: url(fuentes/IndieFlower.ttf);
   font-size: 0px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -63,8 +62,8 @@ nav ul li a {
 
 /* Estilo sobre Bienvenido*/
 h2 {
-  font-family: 'Indie Flower', cursive;
-  src: url(fuentes/IndieFlower.ttf);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Mali', cursive;
   color: #0066FF;
   font-size: 38px;
   text-align: center;
@@ -74,8 +73,8 @@ h2 {
 
 /* Estilo h3 ofertas */
 #ofertas {
+  font-family: 'Anton', sans-serif;
   width: 100%;
-  font-family: 'Indie Flower', cursive;
   font-size: 30px;
   font-weight: bold;
   color: #2a75ed;
@@ -102,11 +101,11 @@ h2 {
   width: 20%;
   display: inline-block;
   font-size: 16px;
-  margin-left: 10%;
   margin-top: 5%;
   padding:2px;
   background-color: #020c28;
   text-align: center;
+  font-family: 'Anton', sans-serif;
 }
 
 .counter:hover, .pacman:hover, .age:hover, .fifa:hover, .sims:hover, .gta:hover, .f1:hover, .need:hover,.nba:hover {
@@ -116,8 +115,8 @@ h2 {
 
 /* Estilos h3 novedades */
 #novedades {
+  font-family: 'Anton', sans-serif;
   width: 100%;
-  font-family: 'Indie Flower', cursive;
   font-size: 30px;
   font-weight: bold;
   color: #2a75ed;
@@ -137,6 +136,7 @@ h2 {
 }
 
 #listadouno li {
+  font-family: 'Anton', sans-serif;
   width: 20%;
   display: inline-block;
   font-size: 16px;
@@ -156,12 +156,15 @@ h2 {
 
 /* Estilos newlester */
 .new {
-  width: 100%;
-  background: #113c4c;
+  font-family: 'Anton', sans-serif;
+  font-size: 12px;
+  width: 25%;
+  background-image: linear-gradient(to right, #020c28 , blue);
   color: white;
-  height: 350px;
-  top: 50px;
+  height: 240px;
+  bottom: -260px;
   position: relative;
+  margin-left: 1040px;
 }
 
 /*Estilo pie de página */
