@@ -25,6 +25,7 @@ nav ul li a {
   margin-left: 80px;
 }
 
+
 }
 
 @media (max-width: 767px) {
@@ -36,6 +37,9 @@ nav ul li a {
     display: block;
     margin: auto;
   }
+.new {
+  display: none;
+}
 
 }
 
@@ -78,6 +82,9 @@ h2 {
 #listadouno li {
   width: 60%;
   margin-left: 80px;
+}
+.new {
+  display: none;
 }
 
 .footer {
