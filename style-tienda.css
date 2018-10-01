@@ -1,0 +1,134 @@
+/* color de fondo de la página */
+body {
+  margin:0;
+  background-size: 100%;
+  background-color: #0f1b3a;
+}
+
+#logo-container{
+  display: inline-block;
+  width:11.5%;
+}
+
+header{
+  font-size: 0;
+}
+
+nav {
+font-family: 'Bai Jamjuree', sans-serif;
+width: 80%;
+height: 170px;
+color: #ffffff;
+background: #020c28;
+overflow: hidden;
+text-align: center;
+}
+
+nav {
+  font-size: 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 4px 2px blue;
+  display: inline-block;
+  width: 88.5%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  line-height: 170px;
+}
+
+
+menu {
+font-family: 'Bai Jamjuree', sans-serif;
+height: 120px;
+color: #ffffff;
+background-image: linear-gradient(to right, #020c28 , blue);
+overflow: hidden;
+}
+
+menu {
+  font-size: 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  bottom: 35px;
+  border-top: 2px solid #1ceacf;
+  border-right: 2px solid #1ceacf;
+  border-bottom: 2px solid #1ceacf;
+  border-left: 2px solid #1ceacf;
+}
+
+menu ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+menu ol li {
+  display: inline-block;
+  width: 16%;
+}
+
+menu ol li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1eacbf;
+  line-height: 130px;
+}
+
+h2 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Mali', cursive;
+  color: #0066FF;
+  font-size: 38px;
+  text-align: center;
+}
+
+#listado {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+#listado li {
+  width: 20%;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5%;
+  padding:2px;
+  background-color: #020c28;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  margin-left: 80px;
+  color: white;
+}
+
+#listado li:hover {
+  box-shadow: 0px 0px 15px 15px #ec731e;
+  -webkit-box-shadow: 0px 0px 15px 15px blue;
+}
+
+
+
+
+
+}

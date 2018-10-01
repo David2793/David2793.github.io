@@ -7,7 +7,10 @@ body {
 }
 
 /* Estilo del logo */
-
+#logo-container{
+  display: inline-block;
+  width:11.5%;
+}
 
 header{
   font-size: 0;
@@ -24,10 +27,7 @@ overflow: hidden;
 text-align: center;
 }
 
-#logo-container{
-  display: inline-block;
-  width:11.5%;
-}
+
 
 /* Estilos en la fuente de letra de <nav> */
 nav {
@@ -106,6 +106,7 @@ h2 {
   background-color: #020c28;
   text-align: center;
   font-family: 'Anton', sans-serif;
+  margin-left: 80px;
 }
 
 .counter:hover, .pacman:hover, .age:hover, .fifa:hover, .sims:hover, .gta:hover, .f1:hover, .need:hover,.nba:hover {
@@ -145,6 +146,7 @@ h2 {
   padding:2px;
   background-color: #020c28;
   text-align: center;
+  margin-left: 80px;
 }
 
 .busca:hover, .worms:hover, .pou:hover {
@@ -152,19 +154,15 @@ h2 {
   -webkit-box-shadow: 0px 0px 15px 15px blue;
 }
 
-
-
 /* Estilos newlester */
 .new {
   font-family: 'Anton', sans-serif;
   font-size: 12px;
-  width: 25%;
+  width: 100%;
   background-image: linear-gradient(to right, #020c28 , blue);
   color: white;
   height: 240px;
-  bottom: -260px;
   position: relative;
-  margin-left: 1040px;
 }
 
 /*Estilo pie de página */
@@ -189,4 +187,5 @@ h2 {
   position: relative;
   top: 168px;
   left: 1px;
+}
 }

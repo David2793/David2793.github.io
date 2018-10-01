@@ -37,9 +37,6 @@ nav ul li a {
     display: block;
     margin: auto;
   }
-.new {
-  display: none;
-}
 
 }
 
@@ -82,9 +79,6 @@ h2 {
 #listadouno li {
   width: 60%;
   margin-left: 80px;
-}
-.new {
-  display: none;
 }
 
 .footer {
