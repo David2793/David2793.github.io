@@ -61,11 +61,18 @@ p {
   #logo-container {
     float: none;
   }
+
+  #ac {
+    width: 100%
+  }
 }
 @media (max-width: 767px) {
 
   #logo-container {
   float: none;
+  }
+  #ac {
+    width: 100%
   }
 }
 
@@ -73,5 +80,8 @@ p {
 @media screen and (max-width: 480px) {
   #logo-container {
     float: none;
+    }
+    #ac {
+      width: 100%
     }
 }
