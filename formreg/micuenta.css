@@ -56,4 +56,22 @@ p {
   left: 1px;
 }
 
+@media (min-width: 481px) and (max-width: 1199px) {
+
+  #logo-container {
+    float: none;
+  }
+}
+@media (max-width: 767px) {
+
+  #logo-container {
+  float: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  #logo-container {
+    float: none;
+    }
 }
