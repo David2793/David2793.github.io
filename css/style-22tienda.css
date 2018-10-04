@@ -5,6 +5,10 @@ body {
   background-color: #0f1b3a;
 }
 
+p{
+  font-size: 20px;
+  color: white;
+}
 #logo-container{
   display: inline-block;
   width:11.5%;
@@ -68,7 +72,7 @@ menu {
   display: inline-block;
   width: 100%;
   position: relative;
-  bottom: 35px;
+  top: 5px;
   border-top: 2px solid #1ceacf;
   border-right: 2px solid #1ceacf;
   border-bottom: 2px solid #1ceacf;
@@ -102,30 +106,6 @@ h2 {
   text-align: center;
 }
 
-#listado {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0;
-}
-
-#listado li {
-  width: 20%;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 5%;
-  padding:2px;
-  background-color: #020c28;
-  text-align: center;
-  font-family: 'Anton', sans-serif;
-  margin-left: 80px;
-  color: white;
-}
-
-#listado li:hover {
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px blue;
-}
 
 #pag {
   text-align: center;
