@@ -1,0 +1,154 @@
+/* color de fondo de la página */
+body {
+  margin:0;
+  background-size: 100%;
+  background-color: #0f1b3a;
+}
+
+#logo-container{
+  display: inline-block;
+  width: 11.5%;
+}
+
+header{
+  font-size: 0;
+}
+
+nav {
+font-family: 'Bai Jamjuree', sans-serif;
+height: 170px;
+color: #ffffff;
+background: #020c28;
+overflow: hidden;
+text-align: center;
+}
+
+nav {
+  font-size: 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 4px 2px blue;
+  display: inline-block;
+  width: 88.5%;
+  position: relative;
+  margin-left: 11.5%;
+  bottom: 170px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  line-height: 170px;
+}
+
+#content-images {
+  width: 90%;
+  background: #020c28;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 550px;
+}
+
+#imagene1 {
+  width: 20%;
+  position: relative;
+  margin-left: 2%;
+
+}
+
+#imagen2 {
+  width: 10%;
+  position: relative;
+  margin-left: 2%;
+}
+
+#imagen3 {
+  width: 10%;
+  position: relative;
+  margin-left: 0%;
+}
+
+#content-text {
+  color: white;
+  width: 70%;
+  background-color: ;
+  position: relative;
+  bottom: 480px;
+  margin-left: 25%;
+}
+
+article div p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  bottom: 420px;
+  text-align: center;
+  margin-left: 25%;
+}
+
+form h3 {
+  color: red;
+  position: relative;
+  margin-left: 58.5%;
+  font-size: 20px;
+  bottom: 420px;
+}
+
+#desc {
+  width: 90%;
+  margin-left: 5%;
+  background: #020c28;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#desc h2 {
+  color: blue;
+}
+
+iframe {
+  margin-left: 30%;
+  border: 5px solid blue;
+
+}
+/*Estilo pie de página */
+
+.footer {
+  width: 100%;
+  height: 250px;
+  color: white;
+  background-color: #020c28;
+}
+
+.pc {
+  top: 160px;
+  position: relative;
+  left: 15px;
+}
+.copy {
+  top: 160px;
+  position: relative;
+  left: 15px;
+}
+.icono {
+  position: relative;
+  bottom:-150px;
+  left: 1px;
+}
+
+}

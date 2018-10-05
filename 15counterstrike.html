@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="author" content="David Antonio">
     <meta name="description" content="E-commerce de juegos digitales para PC.">
+    <link rel="stylesheet" href="css/style-juegos.css">
     <title>
       Counter Srike 1.6 (PC)
     </title>
@@ -12,11 +13,14 @@
 
   <body>
     <header>
+      <div class="logo-container">
       <a href="index.html">
         <img src="imagenes/logo.jpg" alt="lampara con luz" width="150px" left="150px">
       </a>
+    </div>
     </header>
     <nav>
+      <ul>
       <li>
         <a href="index.html" title="Inicio">
           Inicio
@@ -37,21 +41,16 @@
           Contacto
         </a>
       </li>
+      <ul>
     </nav>
-    <section>
-      <video preload="preload" autoplay="autoplay" ploop="loop" height="600">
-        <source src="videos/portada.mp4" type="video/mp4">
-        <source src="videos/portada.ogv" type="video/ogg">
-        <source src="videos/portada.WebM" type="video/WebM">
-        Elemento de video no soportado en su explorador.
-      </video>
-    </section>
     <article>
-      <img src="imgjuegos/counter.jpg" alt="Counter strike 1.6, juego de acción y disparos en primara persona." border="1px" width="300px" height="350px">
+      <div id="content-images">
+      <img id="imagene1" src="imgjuegos/counter.jpg" alt="Counter strike 1.6, juego de acción y disparos en primara persona." border="1px" width="300px" height="350px">
       <br>
-      <img src="imgjuegos/cs1.jpg" width="149px" height="100px">
-      <img src="imgjuegos/cs2.jpg" width="149px" height="100px">
-      <p>
+      <br>
+      <img id="imagen2" src="imgjuegos/cs1.jpg" width="149px" height="100px">
+      <img id="imagen3" src="imgjuegos/cs2.jpg" width="149px" height="100px">
+      <p id="content-text">
         Counter-Strike es un videojuego de disparos en primera persona multijugador (ya sea en LAN o en línea). Es una modificación completa del juego Half-Life, realizada por Minh Le y Jess Cliffe, quienes lanzaron la primera versión el 18 de junio de 1999
       </p>
       <p>
@@ -60,6 +59,7 @@
       <p>
         $ 150
       </p>
+      <div>
       <form>
         <h3>
           Valoración
@@ -91,7 +91,7 @@
         </p>
       </form>
     </article>
-    <div>
+    <div id="desc">
       <h2>
         Desripción
       </h2>
@@ -102,13 +102,15 @@
     </div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/xgQ4eRu02MI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
     <br>
-    <footer>
-      <img src="imagenes/icono.png" class="logo" align="left" width="80px" left="80px">
+    <footer class="footer">
+      <img class="icono" src="imagenes/icono.png" class="logo" align="left" width="80px" left="80px">
+      <p class="copy">
       Copyright &copy; 2018-2021
-      <p>
-        <em>
+    </p>
+    <p class="pc">
+        <strong>
           PC GAMES
-        </em>
+        </strong>
         es una tienda online uruguaya donde puedes comprar juegos de PC. Todos nuestros productos son originales
       </p>
     </footer>
