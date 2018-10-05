@@ -79,10 +79,11 @@ h2 {
   font-weight: bold;
   color: #2a75ed;
   background-image: linear-gradient(to right, #020c28 , blue);
-  padding: 20px;
+  height: 50px;
   text-align: center;
   text-shadow: 5px 2px 4px black;
   letter-spacing: 50px;
+  line-height: 50px;
 }
 
 /* Estilo a la lista de juegos de oferta */
@@ -122,10 +123,11 @@ h2 {
   font-weight: bold;
   color: #2a75ed;
   background-image: linear-gradient(to right, #020c28 , blue);
-  padding: 20px;
+  height: 50px;
   text-align: center;
   text-shadow: 5px 2px 4px black;
   letter-spacing: 50px;
+  line-height: 50px;
 }
 
 /* Estilo a la lista de juegos de novedades*/

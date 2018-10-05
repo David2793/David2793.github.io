@@ -64,15 +64,14 @@ overflow: hidden;
 menu {
   font-size: 0px;
   font-weight: bold;
-  letter-spacing: 2px;
-  display: inline-block;
-  width: 100%;
+  letter-spacing: 1px;
+  width: 96.8%;
   position: relative;
   top: 5px;
-  border-top: 2px solid #1ceacf;
-  border-right: 2px solid #1ceacf;
-  border-bottom: 2px solid #1ceacf;
-  border-left: 2px solid #1ceacf;
+  border-top: 1px solid blue;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
+  border-left: 1px solid blue;
 }
 
 menu ol {
@@ -91,7 +90,7 @@ menu ol li a {
   text-decoration: none;
   font-size: 20px;
   color: #1eacbf;
-  line-height: 130px;
+  line-height: 110px;
 }
 
 h2 {
