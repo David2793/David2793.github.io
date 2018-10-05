@@ -4,7 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="David Antonio">
-    <meta name="description" content="Página de juegos para pc">
+    <meta name="description" content="E-commerce de juegos digitales para PC.">
+    <link rel="stylesheet" href="css/style-juegos.css">
     <title>
       Pacman (PC)
     </title>
@@ -12,11 +13,14 @@
 
   <body>
     <header>
+      <div class="logo-container">
       <a href="index.html">
         <img src="imagenes/logo.jpg" alt="lampara con luz" width="150px" left="150px">
       </a>
+    </div>
     </header>
     <nav>
+      <ul>
       <li>
         <a href="index.html" title="Inicio">
           Inicio
@@ -37,21 +41,15 @@
           Contacto
         </a>
       </li>
+      <ul>
     </nav>
-    <section>
-      <video preload="preload" autoplay="autoplay" ploop="loop" height="600">
-        <source src="videos/portada.mp4" type="video/mp4">
-        <source src="videos/portada.ogv" type="video/ogg">
-        <source src="videos/portada.WebM" type="video/WebM">
-        Elemento de video no soportado en su explorador.
-      </video>
-    </section>
     <article>
-      <img src="imgjuegos/pacman.png" alt="imagen del juego pacman" border="1px" width="300px" height="350px">
+      <div id="content-images">
+      <img id="imagen1" src="imgjuegos/pacman.png" alt="imagen del juego pacman" border="1px" width="300px" height="350px">
       <br>
-      <img src="imgjuegos/pac1.jpg" width="149px" height="100px">
-      <img src="imgjuegos/pac2.jpg" width="149px" height="100px">
-      <p>
+      <img id="imagen2" src="imgjuegos/pac1.jpg" width="149px" height="100px">
+      <img id="imagen3" src="imgjuegos/pac2.jpg" width="149px" height="100px">
+      <p id="content-text">
         Pac-Man (パックマン Pakku Man), también conocido como Comecocos en España, es un videojuego arcade creado por el diseñador de videojuegos Toru Iwatani de la empresa Namco, y distribuido por Midway Games al mercado estadounidense a principios de los años
         1980.
       </p>
@@ -92,7 +90,7 @@
         </p>
       </form>
     </article>
-    <div>
+    <div id="desc">
       <h2>
         Desripción
       </h2>
@@ -105,10 +103,12 @@
     </div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pPLwI5aDNpc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
     <br>
-    <footer>
-      <img src="imagenes/icono.png" class="logo" align="left" width="80px" left="80px">
+    <footer class="footer">
+      <img  class="icono" src="imagenes/icono.png" class="logo" align="left" width="80px" left="80px">
+      <p class="copy">
       Copyright &copy; 2018-2021
-      <p>
+    </p>
+    <p class="pc">
         <em>
           PC GAMES
         </em>
