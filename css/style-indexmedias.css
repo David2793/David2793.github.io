@@ -42,9 +42,12 @@ nav ul li a {
   #logo-container {
     width: 100%;
     display: block;
-    margin: auto;
+    margin: 0px;
   }
-
+#logo {
+  position: relative;
+  margin-left: 44.5%;
+}
 nav {
   height: 150px;
   letter-spacing: 0px;
@@ -54,6 +57,7 @@ nav ul li {
   display: table-cell;
   height: 90px;
   margin: auto;
+
 }
 
 nav ul li a {
