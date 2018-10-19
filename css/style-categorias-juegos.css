@@ -1,27 +1,28 @@
 /* color de fondo de la página */
+
 body {
-  margin:0;
+  margin: 0;
   background-size: 100%;
   background-color: #0f1b3a;
 }
 
-#logo-container{
+#logo-container {
   display: inline-block;
-  width:11.5%;
+  width: 11.5%;
 }
 
-header{
+header {
   font-size: 0;
 }
 
 nav {
-font-family: 'Bai Jamjuree', sans-serif;
-width: 80%;
-height: 170px;
-color: #ffffff;
-background: #020c28;
-overflow: hidden;
-text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  width: 80%;
+  height: 170px;
+  color: #ffffff;
+  background: #020c28;
+  overflow: hidden;
+  text-align: center;
 }
 
 nav {
@@ -52,13 +53,14 @@ nav ul li a {
   line-height: 170px;
 }
 
-
 menu {
-font-family: 'Bai Jamjuree', sans-serif;
-height: 100px;
-color: #ffffff;
-background-image: linear-gradient(to right, #020c28 , blue);
-overflow: hidden;
+  font-family: 'Bai Jamjuree', sans-serif;
+  height: 100px;
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(left, #020c28, blue);
+  background-image: -o-linear-gradient(left, #020c28, blue);
+  background-image: linear-gradient(to right, #020c28, blue);
+  overflow: hidden;
 }
 
 menu {
@@ -114,7 +116,7 @@ h2 {
   font-size: 16px;
   margin-top: 5%;
   margin-bottom: 2%;
-  padding:2px;
+  padding: 2px;
   background-color: #020c28;
   text-align: center;
   font-family: 'Anton', sans-serif;
@@ -153,18 +155,19 @@ div a {
 .pc {
   top: 80px;
   position: relative;
-  left: 80px;
+  margin-left: 80px;
 }
+
 .copy {
   top: 80px;
   position: relative;
-  left: 80px;
-}
-.icono {
-  position: relative;
-  bottom:-150px;
-  left: 1px;
+  margin-left: 80px;
 }
 
+.icono {
+  position: relative;
+  bottom: -150px;
+  left: 1px;
+}
 
 }

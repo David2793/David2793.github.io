@@ -1,42 +1,45 @@
-
 /* color de fondo de la página */
+
 body {
-  margin:0;
+  margin: 0;
   background-size: 100%;
   background-color: #0f1b3a;
 }
 
 /* Estilo del logo */
-#logo-container{
+
+#logo-container {
   display: inline-block;
-  width:11.5%;
+  width: 11.5%;
 }
 
-header{
+header {
   font-size: 0;
 }
 
 /* Estilo caja detras del menú */
+
 nav {
-font-family: 'Bai Jamjuree', sans-serif;
-width: 80%;
-height: 170px;
-color: #ffffff;
-background: #020c28;
-overflow: hidden;
-text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  width: 80%;
+  height: 177px;
+  color: #ffffff;
+  background: #020c28;
+  overflow: hidden;
+  text-align: center;
 }
 
-
-
 /* Estilos en la fuente de letra de <nav> */
+
 nav {
   font-size: 0px;
   font-weight: bold;
   letter-spacing: 2px;
   text-shadow: 4px 2px blue;
   display: inline-block;
-  width: 88.5%;
+  width: calc(100% - 150px);
+  position: absolute;
+  right: 0;
 }
 
 nav ul {
@@ -58,9 +61,8 @@ nav ul li a {
   line-height: 170px;
 }
 
-
-
 /* Estilo sobre Bienvenido*/
+
 h2 {
   font-family: 'Bai Jamjuree', sans-serif;
   font-family: 'Mali', cursive;
@@ -69,16 +71,15 @@ h2 {
   text-align: center;
 }
 
-
-
 /* Estilo h3 ofertas */
+
 #ofertas {
   font-family: 'Anton', sans-serif;
   width: 100%;
   font-size: 30px;
   font-weight: bold;
   color: #2a75ed;
-  background-image: linear-gradient(to right, #020c28 , blue);
+  background-image: linear-gradient(to right, #020c28, blue);
   height: 50px;
   text-align: center;
   text-shadow: 5px 2px 4px black;
@@ -87,6 +88,7 @@ h2 {
 }
 
 /* Estilo a la lista de juegos de oferta */
+
 .counter, .pacman, .age, .fifa, .sims, .gta, .f1, .need, .nba, .busca, .worms, .pou {
   color: white;
 }
@@ -103,26 +105,27 @@ h2 {
   display: inline-block;
   font-size: 16px;
   margin-top: 5%;
-  padding:2px;
+  padding: 2px;
   background-color: #020c28;
   text-align: center;
   font-family: 'Anton', sans-serif;
   margin-left: 80px;
 }
 
-.counter:hover, .pacman:hover, .age:hover, .fifa:hover, .sims:hover, .gta:hover, .f1:hover, .need:hover,.nba:hover {
+.counter:hover, .pacman:hover, .age:hover, .fifa:hover, .sims:hover, .gta:hover, .f1:hover, .need:hover, .nba:hover {
   box-shadow: 0px 0px 15px 15px #ec731e;
   -webkit-box-shadow: 0px 0px 15px 15px blue;
 }
 
 /* Estilos h3 novedades */
+
 #novedades {
   font-family: 'Anton', sans-serif;
   width: 100%;
   font-size: 30px;
   font-weight: bold;
   color: #2a75ed;
-  background-image: linear-gradient(to right, #020c28 , blue);
+  background-image: linear-gradient(to right, #020c28, blue);
   height: 50px;
   text-align: center;
   text-shadow: 5px 2px 4px black;
@@ -131,6 +134,7 @@ h2 {
 }
 
 /* Estilo a la lista de juegos de novedades*/
+
 #listadouno {
   list-style: none;
   padding: 0;
@@ -145,7 +149,7 @@ h2 {
   font-size: 16px;
   margin-left: 10%;
   margin-top: 5%;
-  padding:2px;
+  padding: 2px;
   background-color: #020c28;
   text-align: center;
   margin-left: 80px;
@@ -157,17 +161,19 @@ h2 {
 }
 
 /* Estilos newlester */
+
 .new {
   font-family: 'Anton', sans-serif;
   font-size: 12px;
   width: 100%;
-  background-image: linear-gradient(to right, #020c28 , blue);
+  background-image: linear-gradient(to right, #020c28, blue);
   color: white;
   height: 240px;
   position: relative;
 }
 
 /*Estilo pie de página */
+
 .footer {
   width: 100%;
   height: 250px;
@@ -180,14 +186,17 @@ h2 {
   position: relative;
   left: 10px;
 }
+
 .copy {
   top: 190px;
   position: relative;
   left: 10px;
 }
+
 .icono {
   position: relative;
   top: 168px;
   left: 1px;
 }
+
 }

@@ -1,31 +1,33 @@
 /* color de fondo de la página */
+
 body {
-  margin:0;
+  margin: 0;
   background-size: 100%;
   background-color: #0f1b3a;
 }
 
-p{
+p {
   font-size: 20px;
   color: white;
 }
-#logo-container{
+
+#logo-container {
   display: inline-block;
-  width:11.5%;
+  width: 11.5%;
 }
 
-header{
+header {
   font-size: 0;
 }
 
 nav {
-font-family: 'Bai Jamjuree', sans-serif;
-width: 80%;
-height: 170px;
-color: #ffffff;
-background: #020c28;
-overflow: hidden;
-text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  width: 80%;
+  height: 170px;
+  color: #ffffff;
+  background: #020c28;
+  overflow: hidden;
+  text-align: center;
 }
 
 nav {
@@ -56,13 +58,12 @@ nav ul li a {
   line-height: 170px;
 }
 
-
 menu {
-font-family: 'Bai Jamjuree', sans-serif;
-height: 100px;
-color: #ffffff;
-background-image: linear-gradient(to right, #020c28 , blue);
-overflow: hidden;
+  font-family: 'Bai Jamjuree', sans-serif;
+  height: 100px;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #020c28, blue);
+  overflow: hidden;
 }
 
 menu {
@@ -106,7 +107,6 @@ h2 {
   text-align: center;
 }
 
-
 #pag {
   text-align: center;
   font-size: 20px;
@@ -135,14 +135,16 @@ div a {
   position: relative;
   left: 80px;
 }
+
 .copy {
   top: 80px;
   position: relative;
   left: 80px;
 }
+
 .icono {
   position: relative;
-  bottom:-150px;
+  bottom: -150px;
   left: 1px;
 }
 

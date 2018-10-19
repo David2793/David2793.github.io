@@ -1,26 +1,27 @@
 /* color de fondo de la página */
+
 body {
-  margin:0;
+  margin: 0;
   background-size: 100%;
   background-color: #0f1b3a;
 }
 
-#logo-container{
+#logo-container {
   display: inline-block;
   width: 11.5%;
 }
 
-header{
+header {
   font-size: 0;
 }
 
 nav {
-font-family: 'Bai Jamjuree', sans-serif;
-height: 170px;
-color: #ffffff;
-background: #020c28;
-overflow: hidden;
-text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  height: 170px;
+  color: #ffffff;
+  background: #020c28;
+  overflow: hidden;
+  text-align: center;
 }
 
 nav {
@@ -66,7 +67,6 @@ nav ul li a {
   width: 20%;
   position: relative;
   margin-left: 2%;
-
 }
 
 #imagen2 {
@@ -124,8 +124,8 @@ form h3 {
 iframe {
   margin-left: 30%;
   border: 5px solid blue;
-
 }
+
 /*Estilo pie de página */
 
 .footer {
@@ -140,14 +140,16 @@ iframe {
   position: relative;
   left: 15px;
 }
+
 .copy {
   top: 160px;
   position: relative;
   left: 15px;
 }
+
 .icono {
   position: relative;
-  bottom:-150px;
+  bottom: -150px;
   left: 1px;
 }
 

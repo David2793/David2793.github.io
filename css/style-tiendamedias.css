@@ -1,77 +1,88 @@
 @media (min-width: 780px) and (max-width: 1024px) {
 
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  #listado li {
+    width: 20%;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px){
   #logo-container {
     display: block;
     margin: auto;
   }
-
-nav {
-  width: 100%;
-}
-
-nav ul li a {
-  font-size: 15px;
-}
-
-}
-#listado li {
-  width: 20%;
-  margin-left: 80px;
-}
-}
-
-@media (min-width: 480px) and (max-width: 780px) {
 
   nav {
     width: 100%;
   }
-  #logo-container {
-    display: block;
-    margin: auto;
+
+  nav ul li {
+    width: 100%;
   }
 
+  nav ul li a {
+    line-height: 32px;
+  }
+}
+@media (min-width: 480px) and (max-width: 1024px) {
+  #logo-container {
+    display: block;
+    margin-left: 42%;
+    position: relative;
+  }
+
+  menu {
+    width: 100%;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 480px) {
   #logo-container {
+    width: 20%;
+    display: block;
+    margin: 0px;
+    margin-left: 40%;
+  }
+  #logo {
+    position: relative;
+  }
+  nav {
+    height: auto;
+    letter-spacing: 0px;
     width: 100%;
+  }
+  nav ul li {
     display: block;
     margin: auto;
   }
 
-nav {
-  height: 150px;
-  letter-spacing: 0px;
-  width: 100%;
-}
-nav ul li {
-  display: table-cell;
-  height: 90px;
-  margin: auto;
-}
+  nav ul li a {
+    font-size: 15px;
+    margin: 9px;
+  }
 
-nav ul li a {
-  font-size: 15px;
-}
-h2 {
-  font-size: 15px;
-}
+  h2 {
+    font-size: 15px;
+  }
+  #listado li {
+    width: 60%;
+    margin-left: 80px;
+  }
+  .footer {
+    height: 280px;
+  }
 
-#listado li {
-  width: 60%;
-  margin-left: 80px;
-}
-
-.footer {
-  height: 280px;
-}
-
-.pc {
-  left: 1px;
-  font-size: 12px;
-}
-.copy {
-  left: 1px;
-  font-size: 12px;
-}
+  .pc {
+    left: 1px;
+    font-size: 12px;
+  }
+  .copy {
+    left: 1px;
+    font-size: 12px;
+  }
 }

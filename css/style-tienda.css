@@ -7,7 +7,6 @@ body {
 
 #logo-container{
   display: inline-block;
-  width:11.5%;
 }
 
 header{
@@ -16,9 +15,6 @@ header{
 
 nav {
 font-family: 'Bai Jamjuree', sans-serif;
-width: 80%;
-height: 170px;
-color: #ffffff;
 background: #020c28;
 overflow: hidden;
 text-align: center;
@@ -28,13 +24,13 @@ nav {
   font-size: 0px;
   font-weight: bold;
   letter-spacing: 2px;
-  text-shadow: 4px 2px blue;
+  text-shadow: 1px 2px blue;
   display: inline-block;
-  width: 88.5%;
+  width: calc(100% - 150px);
+  right: 0px;
 }
 
 nav ul {
-  list-style-type: none;
   padding: 0;
   margin: 0;
   font-size: 0;
@@ -55,7 +51,6 @@ nav ul li a {
 
 menu {
 font-family: 'Bai Jamjuree', sans-serif;
-height: 100px;
 color: #ffffff;
 background-image: linear-gradient(to right, #020c28 , blue);
 overflow: hidden;
@@ -65,9 +60,6 @@ menu {
   font-size: 0px;
   font-weight: bold;
   letter-spacing: 1px;
-  width: 96.8%;
-  position: relative;
-  top: 5px;
   border-top: 1px solid blue;
   border-right: 1px solid blue;
   border-bottom: 1px solid blue;
@@ -152,12 +144,12 @@ div a {
 .pc {
   top: 80px;
   position: relative;
-  left: 80px;
+  margin-left: 80px;
 }
 .copy {
   top: 80px;
   position: relative;
-  left: 80px;
+  margin-left: 80px;
 }
 .icono {
   position: relative;
