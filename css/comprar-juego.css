@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background-size: 100%;
+  background-color: #0f1b3a;
+}
+
+#logo-container {
+  display: inline-block;
+  width: 11.5%;
+}
+
+header {
+  font-size: 0;
+}
+
+/* Estilo caja detras del menú */
+
+nav {
+  font-family: 'Bai Jamjuree', sans-serif;
+  height: 177px;
+  color: #ffffff;
+  background: #020c28;
+  text-align: center;
+}
+
+/* Estilos en la fuente de letra de <nav> */
+
+nav {
+  font-size: 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 4px 2px blue;
+  display: inline-block;
+  width: calc(100% - 150px);
+  position: absolute;
+  right: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  line-height: 170px;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+label {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+img {
+  margin-right: 20px;
+}
+
+.totales {
+  width: 400px;
+  margin-left: 900px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -450px;
+}
+
+.tipodeproducto {
+  width: 400px;
+  margin-left: 470px;
+  margin-top: -450px;
+}
+
+.tipodeenvio {
+  width: 400px;
+  margin-left: 470px;
+  height: 150px;
+}
+
+.metodopago {
+  width: 400px;
+  margin-left: 470px;
+}
+
+.datosdeenvio {
+  width: 400px;
+  margin-left: 900px;
+  margin-top: -180px;
+  height: 160px;
+}
+
+.datospersonales {
+  width: 1300px;
+  margin-top: 75px;
+}
+
+#comprar {
+  margin-left: 1000px;
+}
+
+/*Estilo pie de página */
+
+.footer {
+  width: 100%;
+  height: 250px;
+  color: white;
+  background-color: #020c28;
+}
+
+.pc {
+  top: 180px;
+  position: relative;
+  left: 10px;
+}
+
+.copy {
+  top: 190px;
+  position: relative;
+  left: 10px;
+}
+
+.icono {
+  position: relative;
+  top: 168px;
+  left: 1px;
+}
+
+#gracias {
+  position: absolute;
+  margin-left: 670px;
+  margin-top: -230px;
+}
+}

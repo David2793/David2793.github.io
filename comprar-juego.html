@@ -1,144 +1,215 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="js/comprar-juego.js"></script>
-    </head>
-    <body>
-
-        <h2>
-          Realiza tu compra
-        </h2>
-
-        <form>
-
-          <div id="Datos">
-             <p><b>Introduzca sus datos personales:</b></p>
-          </div>
-
-          <div>
-            <label>Nombre completo:</label><br/>
-            <input type="text" id="nombre" value="" size="26" /><br/>
-          </div>
-
-          <div>
-            <label>C.I:</label><br/>
-            <input type="text" id="dni" value="" size="8" maxlength="9" /><br/>
-          </div>
-
-          <div>
-            <label>Fecha de nacimiento:</label><br/>
-            <select id="dianacimiento">
-            <option value=""> dia </option>
-            </select>
-            <select id="fechaNacimientoMes">
-            <option value="">      mes</option>
-            <option value="1">Enero</option>
-            <option value="2">Febrero</option>
-            <option value="3">Marzo</option>
-            <option value="4">Abril</option>
-            <option value="5">Mayo</option>
-            <option value="6">Junio</option>
-            <option value="7">Julio</option>
-            <option value="8">Agosto</option>
-            <option value="9">Septiembre</option>
-            <option value="10">Octubre</option>
-            <option value="11">Noviembre</option>
-            <option value="12">Diciembre</option>
-            </select>
-            <select id="aniodenacimiento">
-            <option value="">  año </option>
-            </select><br/>
-          </div>
-
-          <div id="divDatosPersonales2">
-            <label>Telefono movil:</label><br/>
-            <input type="text" id="movil" value="" size="8" maxlength="9"/><br/>
-          </div>
-
-          <div>
-            <label>Email:</label><br/>
-            <input type="text" id="email1" value="" size="25" /><br/>
-          </div>
-
-          <div>
-            <label>Repita el email:</label><br/>
-            <input type="text" id="email2" value="" size="25" />
-          </div>
-
-          <h3> Elige comprar tu juego Fisico o Digital </h3>
-
-          <div>
-              <input type="radio" name="estudios" id="fisico">
-              <label>Fisico (CD/DVD)</label>
-              <input type="radio" name="estudios" id="digital" checked>
-              <label>Digital</label>
-          </div>
-
-          <div id="domicilio">
-              <label>Domicilio:</label>
-              <input type="text" value="" size="25">
-          </div>
-
-          <div id="localidad">
-              <label>Localidad:</label>
-              <input type="text" value="" size="25">
-          </div>
-
-          <div id="codigoPostal">
-              <label>Codigo Postal:</label>
-              <input type="text" value="" size="25">
-          </div>
-
-
-          <div id="dpto">
-             <label>Departamento:</label>
-             <select>
-             <option value=""> Departamento</option>
-             <option value="1">Artigas</option>
-             <option value="2">Canelones</option>
-             <option value="3">Cerro Largo</option>
-             <option value="4">Colonia</option>
-             <option value="5">Durazno</option>
-             <option value="6">Flores</option>
-             <option value="7">Florida</option>
-             <option value="8">Lavalleja</option>
-             <option value="9">Maldonado </option>
-             <option value="10">Montevideo</option>
-             <option value="11">Paysandu</option>
-             <option value="12">Rio Negro</option>
-             <option value="13">Rivera</option>
-             <option value="14">Rocha</option>
-             <option value="15">Salto</option>
-             <option value="16">San José</option>
-             <option value="17">Soriano</option>
-             <option value="18">Tacuarembó</option>
-             <option value="19">Treinta y Tres</option>
-             </select>
-          </div>
-          </div>
-
-          <div>
-            <button id="boton-comprar">Comprar</button>
-          </div>
-
-          <form>
-          <!--Producto-->
-          <div id="counterstrike" name="juego">
-          </div>
-
-          <div id="pre" name="precio">
-          </div>
-
-          <div id="stock" name="stock">
-          </div>
-
-          <div id="divbotones">
-             <input type="button" id="botonTotal" value="Total de la Compra"/>
-          </div>
-
-
-
-
-        </form>
-    </body>
+   <head>
+      <script src="js/comprar-juego.js"></script>
+      <link rel="stylesheet" href="css/comprar-juego.css">
+      <link rel="stylesheet" href="medias-comprarjuego.css">
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <header>
+         <div id="logo-container">
+            <a href="index.html">
+            <img class="logo" src="imagenes/logo.jpg" alt="lampara con luz" width="150px" left="150px">
+            </a>
+         </div>
+         <nav>
+            <ul>
+               <li >
+                  <a href="index.html" title="Inicio">
+                  Inicio
+                  </a>
+               </li>
+               <li>
+                  <a href="2tienda.html" title="Tienda">
+                  Tienda
+                  </a>
+               </li>
+               <li>
+                  <a href="formreg/formularioregistro.html" title="Mi cuenta">
+                  Cuenta
+                  </a>
+               </li>
+               <li>
+                  <a href="formreg/contacto.html" title="Contáctanos">
+                  Contacto
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <h2> Comprar Counter Strike 1.6 (PC) </h2>
+      <form method="get" name="formulario">
+         <div id="counterstrike" name="juego"> </div>
+         <fieldset class="totales">
+            <div>
+            <p> Precio unidad: $150 sin impuetos incuidos</p>
+            <div>
+               <label for="campocantidad"> Cantidad:</label>
+               <input type="number" id="campocantidad" value="1">
+            </div>
+            <div>
+               <p><strong>Sub-Total: <span id="subtotal"></span></strong></p>
+            </div>
+            <div>
+               <p><strong>Iva (22%): <span id="iva"></span></strong></p>
+            </div>
+      </form>
+      <div>
+      <p><strong> Total (imp.incluidos): <span id="total"></span></strong></p>
+      </div>
+      <div>
+      </fieldset>
+      <fieldset class="tipodeproducto">
+         <div id="tipoenvio">
+            <input type="radio" name="estudiante" id="fisico" checked >
+            <label>Fisico (CD/DVD)</label>
+            <input type="radio" name="estudiante" id="digital" >
+            <label>Digital</label>
+         </div>
+         </form>
+      </fieldset>
+      <fieldset class="tipodeenvio">
+         <form id="enviofisico" >
+            <div>
+               <p> Seleccionar metodo de envio: </p>
+               <p><span id="comun"></span></strong> <input type="radio" name="transporte" id="radioComun" checked>
+                  <label>Común</label>
+               </p>
+               <p><span id="especial"></span></strong><input type="radio" name="transporte" id="radioEspecial">
+                  <label>Especial</label>
+               </p>
+               <p><span id="premium"></span></strong><input type="radio" name="transporte" id="radioPremium">
+                  <label>Premium</label>
+               </p>
+            </div>
+         </form>
+      </fieldset>
+      <form id="compra" action="compra.html">
+         <!--Producto-->
+         <fieldset class="metodopago">
+            <label>Titular de la tarjeta:</label><br/>
+            <input type="text" id="titular" value="" size="26" /><br/>
+            <div id="metodosDePago">
+               <label><span>Tipo de tarjeta:</span></label><br/>
+               <label for="visa">
+               <input type="radio" id="visa" name="tarjetas" class="logoTarjetas" value="Visa">
+               <img src="visa.png" width="40px"></img>
+               </label>
+               <label for="masterCard">
+               <input type="radio" id="masterCard" name="tarjetas" class="logoTarjetas" value="MasterCard">
+               <img src="mastercard.png" width="40px"></img>
+               </label>
+               <label for="oca">
+               <input type="radio" id="oca" name="tarjetas" class="logoTarjetas" value="oca">
+               <img src="imagenes/oca.png" width="40px"></img>
+               </label>
+            </div>
+            <div id="divNumeroTarjeta">
+               <label>Número tarjeta y CVC:</label><br/>
+               <input type="text" id="numeroTarjeta" value="" size="15" maxlength="16" />
+               <input type="text" id="cvcTarjeta" value="" size="2" maxlength="3" /><br/>
+               <select id="tarjetames">
+                  <option value="">  mes </option>
+               </select>
+               <select id="tarjetaanio">
+                  <option value="">  año </option>
+               </select>
+         </fieldset>
+         <fieldset class="datosdeenvio">
+         <div id="domicilio" required>
+         <label>Domicilio:</label>
+         <input type="text" value="" size="25">
+         </div>
+         <div id="localidad" required>
+         <label>Localidad:</label>
+         <input type="text" value="" size="25">
+         </div>
+         <div id="codigoPostal" required>
+         <label>Codigo Postal:</label>
+         <input type="text" value="" size="25">
+         </div>
+         <div id="dpto" required>
+         <label>Departamento:</label>
+         <select>
+         <option value=""> Departamento</option>
+         <option value="1">Artigas</option>
+         <option value="2">Canelones</option>
+         <option value="3">Cerro Largo</option>
+         <option value="4">Colonia</option>
+         <option value="5">Durazno</option>
+         <option value="6">Flores</option>
+         <option value="7">Florida</option>
+         <option value="8">Lavalleja</option>
+         <option value="9">Maldonado </option>
+         <option value="10">Montevideo</option>
+         <option value="11">Paysandu</option>
+         <option value="12">Rio Negro</option>
+         <option value="13">Rivera</option>
+         <option value="14">Rocha</option>
+         <option value="15">Salto</option>
+         <option value="16">San José</option>
+         <option value="17">Soriano</option>
+         <option value="18">Tacuarembó</option>
+         <option value="19">Treinta y Tres</option>
+         </select>
+         </div>
+         </div>
+         </fieldset>
+         <fieldset class="datospersonales">
+      <form id="datos">
+      <p><b>Introduzca sus datos personales:</b></p>
+      <label>Nombre completo:</label><br/>
+      <input type="text" id="nombre" value="" size="26" required/>
+      <label>C.I:</label>
+      <input type="text" id="dni" value="" size="8" maxlength="8" required />
+      <label>Fecha de nacimiento:</label>
+      <select id="dianacimiento" required>
+      <option value=""> Dia </option>
+      </select>
+      <select id="fechaNacimientoMes" required>
+      <option value="">      Mes</option>
+      <option value="1">Enero</option>
+      <option value="2">Febrero</option>
+      <option value="3">Marzo</option>
+      <option value="4">Abril</option>
+      <option value="5">Mayo</option>
+      <option value="6">Junio</option>
+      <option value="7">Julio</option>
+      <option value="8">Agosto</option>
+      <option value="9">Septiembre</option>
+      <option value="10">Octubre</option>
+      <option value="11">Noviembre</option>
+      <option value="12">Diciembre</option>
+      </select>
+      <select id="aniodenacimiento" required>
+      <option value="">  Año </option>
+      </select><br/>
+      <br/><label>Telefono movil:</label>
+      <input type="text" id="movil" value="" size="8" maxlength="9"/>
+      <label>Email:</label>
+      <input type="text" id="email1" value="" size="25" required/>
+      <label>Repita el email:</label>
+      <input type="text" id="email2" value="" size="25" required/>
+      </form>
+      <br>
+      <input type="submit" value="Comprar" id="comprar" >
+      <a href="15counterstrike.html">
+      <input type="button" value="Cancelar" id="cancelar">
+      </a>
+      </fieldset>
+      </fieldset>
+      <footer class="footer">
+         <img class="icono" src="imagenes/icono.png" align="left" width="80px" left="80px">
+         <p class="copy">
+            Copyright &copy; 2018-2021
+         </p>
+         <p class="pc">
+            <strong>
+            PC GAMES
+            </strong>
+            es una tienda online uruguaya donde puedes comprar juegos de PC. Todos nuestros productos son originales
+         </p>
+      </footer>
+   </body>
 </html>
