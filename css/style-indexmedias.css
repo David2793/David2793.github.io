@@ -1,122 +1,221 @@
-@media screen and (max-width: 780px) {
+
+@media (min-width: 1281px) {}
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	.footer {
+		width: 100%;
+		height: 250px;
+		color: white;
+		background-color: #020c28;
+	}
+	.pc {
+		top: 160px;
+		position: relative;
+		left: 0px;
+	}
+	.copy {
+		top: 170px;
+		position: relative;
+		left: 0px;
+	}
+	.icono {
+		position: relative;
+		top: 160px;
+		left: 6px;
+	}
+}
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+	.footer {
+		width: 100%;
+		height: 250px;
+		color: white;
+		background-color: #020c28;
+	}
+
+  #ofertas {
+  letter-spacing: 20px;
+  font-size: 30px;
+  }
+
+  #novedades {
+  letter-spacing: 20px;
+  font-size: 30px;
+  }
+
+  #listado li {
+    font-family: 'Anton', sans-serif;
+    width: 30%;
+    margin-left: 10%;
+  }
+
+  #listadouno li {
+    font-family: 'Anton', sans-serif;
+    width: 30%;
+    margin-left: 10%;
+  }
+
+	.pc {
+		top: 160px;
+		position: relative;
+		left: 0px;
+	}
+	.copy {
+		top: 170px;
+		position: relative;
+		left: 0px;
+	}
+	.icono {
+		position: relative;
+		top: 160px;
+		left: 6px;
+	}
+}
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
 
   #logo-container {
-    display: block;
-    margin: auto;
-    }
+		display: block;
+		width: 100%;
+	}
+	.logo {
+		width: 30%;
+		padding-left: 35%;
+	}
+	nav {
+		width: 100%;
+		position: relative;
+	}
+	nav ul li {
+		display: inline-block;
+		width: 100%;
+		margin: auto;
+	}
+	nav ul li a {
+		line-height: 40px;
+		position: relative;
+		width: 100%;
+	}
 
-    header {
-      font-size: 0;
-    }
-
-    nav {
-      width: 100%;
-      height: 200px;
-    }
-
-    nav {
-      font-size: 0px;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
-
-
-    nav ul li {
-      display: block;
-      padding: 0px;
-      margin: 0px;
-      height: 40px;
-      margin: auto;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-      font-size: 20px;
-      color: white;
-      line-height: 70px;
-      margin-top: 5
-    }
-
-    h2 {
-      font-family: 'Bai Jamjuree', sans-serif;
-      font-family: 'Mali', cursive;
-      color: #0066FF;
-      font-size: 38px;
-      text-align: center;
-      margin-top: 240px;
-    }
-
-    #ofertas {
-      letter-spacing: 10px;
-    }
-
-    #listado {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: 0;
-    }
-
-    #listado li {
-      width: 47%;
-      display: inline-block;
-      font-size: 16px;
-      background-color: #020c28;
-      text-align: center;
-      font-family: 'Anton', sans-serif;
-      margin-left: 30%;
-    }
-
-    #novedades {
-      letter-spacing: 10px;
-    }
-
-    #listadouno li {
-      font-family: 'Anton', sans-serif;
-      width: 47%;
-      display: inline-block;
-      font-size: 16px;
-      background-color: #020c28;
-      text-align: center;
-      margin-left: 30%;
-    }
-
-
-    .new {
-      font-family: 'Anton', sans-serif;
-      font-size: 12px;
-      width: 100%;
-      background-image: linear-gradient(to right, #020c28, blue);
-      color: white;
-      height: 240px;
-      position: relative;
-    }
-
-    /*Estilo pie de página */
-
-    .footer {
-      width: 100%;
-      height: 250px;
-      color: white;
-      background-color: #020c28;
-    }
-
-    .pc {
-      top: 160px;
-      position: relative;
-      left: 0px;
-    }
-
-    .copy {
-      top: 170px;
-      position: relative;
-      left: 0px;
-    }
-
-    .icono {
-      position: relative;
-      top: 148px;
-      left: 1px;
-    }
+  #ofertas {
+  letter-spacing: 20px;
+  font-size: 30px;
   }
+
+  #novedades {
+  letter-spacing: 20px;
+  font-size: 30px;
+  }
+
+  #listado li {
+    font-family: 'Anton', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #listadouno li {
+    font-family: 'Anton', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+	.footer {
+		width: 100%;
+		height: 250px;
+		color: white;
+		background-color: #020c28;
+	}
+	.pc {
+		top: 160px;
+		position: relative;
+		left: 0px;
+	}
+	.copy {
+		top: 170px;
+		position: relative;
+		left: 0px;
+	}
+	.icono {
+		position: relative;
+		top: 160px;
+		left: 6px;
+	}
+
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#logo-container {
+		display: block;
+		width: 100%;
+	}
+	.logo {
+		width: 30%;
+		padding-left: 35%;
+	}
+	nav {
+		width: 100%;
+		position: relative;
+	}
+	nav ul li {
+		display: inline-block;
+		width: 100%;
+		margin: auto;
+	}
+	nav ul li a {
+		line-height: 40px;
+		position: relative;
+	}
+
+  #ofertas {
+  letter-spacing: 20px;
+  font-size: 20px;
+  }
+
+	.footer {
+		width: 100%;
+		height: 250px;
+		color: white;
+		background-color: #020c28;
+	}
+	.pc {
+		top: 160px;
+		position: relative;
+		left: 0px;
+	}
+	.copy {
+		top: 170px;
+		position: relative;
+		left: 0px;
+	}
+	.icono {
+		position: relative;
+		top: 160px;
+		left: 6px;
+	}
 }
