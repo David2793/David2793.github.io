@@ -1,6 +1,66 @@
 @media (min-width: 1281px) {}
-
-
+	.tipodeproducto {
+		margin-left: 0px;
+		margin-top: 0px;
+		position: relative;
+		width: 98%;
+	}
+	.tipodeenvio {
+		margin-left: 0px;
+		position: relative;
+		width: 98%;
+	}
+	.datosdeenvio {
+		margin-left: 0px;
+		position: relative;
+		margin-top: 0px;
+		width: 98%;
+	}
+	.totales {
+		margin-left: 0px;
+		margin-top: 0px;
+		position: relative;
+		width: 98%;
+	}
+	.metodopago {
+		margin-left: 0px;
+		margin-top: px;
+		position: relative;
+		width: 98%;
+	}
+	.datospersonales {
+		margin-top: 0px;
+		width: 98%;
+		margin: 0px;
+	}
+	#comprar {
+		margin-left: 0px;
+	}
+	.imagen {
+		margin-left: 35%;
+	}
+	.footer {
+		width: 100%;
+		height: 250px;
+		color: white;
+		background-color: #020c28;
+	}
+	.pc {
+		top: 160px;
+		position: relative;
+		left: 0px;
+	}
+	.copy {
+		top: 170px;
+		position: relative;
+		left: 0px;
+	}
+	.icono {
+		position: relative;
+		top: 160px;
+		left: 6px;
+	}
+}
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
@@ -83,7 +143,7 @@
 		margin-left: 0px;
 		margin-top: 0px;
 		position: relative;
-		width: 100%;
+		width: 97%;
 	}
 	#gracias {
 		position: relative;
@@ -93,29 +153,29 @@
 	.tipodeenvio {
 		margin-left: 0px;
 		position: relative;
-		width: 100%;
+		width: 97%;
 	}
 	.datosdeenvio {
 		margin-left: 0px;
 		position: relative;
 		margin-top: 0px;
-		width: 100%;
+		width: 97%;
 	}
 	.totales {
 		margin-left: 0px;
 		margin-top: 0px;
 		position: relative;
-		width: 100%;
+		width: 97%;
 	}
 	.metodopago {
 		margin-left: 0px;
 		margin-top: px;
 		position: relative;
-		width: 100%;
+		width: 97%;
 	}
 	.datospersonales {
 		margin-top: 0px;
-		width: 100%;
+		width: 97%;
 		margin: 0px;
 	}
 	#comprar {
@@ -124,7 +184,7 @@
 	.imagen {
 		width: 50%;
 		position: relative;
-		left: 25%;
+		margin-left: 25%;
 	}
 	.footer {
 		width: 100%;
@@ -178,46 +238,49 @@
 		position: relative;
 		width: 100%;
 	}
+
+	.imagen {
+		width: 80%;
+		margin-left: 10%;
+	}
 	.tipodeproducto {
 		margin-left: 0px;
 		margin-top: 0px;
 		position: relative;
-		width: 100%;
+		width: 95%;
 	}
 	.tipodeenvio {
 		margin-left: 0px;
 		position: relative;
-		width: 100%;
+		width: 95%;
 	}
 	.datosdeenvio {
 		margin-left: 0px;
 		position: relative;
 		margin-top: 0px;
-		width: 100%;
+		width: 95%;
 	}
 	.totales {
 		margin-left: 0px;
 		margin-top: 0px;
 		position: relative;
-		width: 100%;
+		width: 95%;
 	}
 	.metodopago {
 		margin-left: 0px;
 		margin-top: px;
 		position: relative;
-		width: 100%;
+		width: 95%;
 	}
 	.datospersonales {
 		margin-top: 0px;
-		width: 100%;
+		width: 95%;
 		margin: 0px;
 	}
 	#comprar {
 		margin-left: 0px;
 	}
-	.imagen {
-		width: 100%
-	}
+
 	.footer {
 		width: 100%;
 		height: 250px;
@@ -278,29 +341,34 @@
 		margin-left: 0px;
 		margin-top: 0px;
 		position: relative;
+		width: 94%;
 	}
 	.tipodeenvio {
 		margin-left: 0px;
 		position: relative;
+		width: 94%;
 	}
 	.datosdeenvio {
 		margin-left: 0px;
 		position: relative;
 		margin-top: 0px;
+		width: 94%;
 	}
 	.totales {
 		margin-left: 0px;
 		margin-top: 0px;
 		position: relative;
+		width: 94%;
 	}
 	.metodopago {
 		margin-left: 0px;
 		margin-top: px;
 		position: relative;
+		width: 94%;
 	}
 	.datospersonales {
 		margin-top: 0px;
-		width: 92.7%;
+		width: 94%;
 		margin: 0px;
 	}
 	#comprar {
