@@ -1,5 +1,9 @@
 @media (min-width: 1281px) {}
 
+	#introduccion {
+		margin-left: 300px;
+		position: relative;
+	}
 
 /*
   ##Device = Laptops, Desktops
